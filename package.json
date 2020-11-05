@@ -1,0 +1,23 @@
+{
+  "name": "classify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jarellp/classify.git"
+  },
+  "author": "Casey Brown",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jarellp/classify/issues"
+  },
+  "homepage": "https://github.com/jarellp/classify#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.0"
+  }
+}
