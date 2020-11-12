@@ -1,0 +1,12 @@
+h1 {
+    color: blue;
+}
+
+body {
+  height: 100%;
+  margin: 2;
+  font-family: Times New Roman;
+  display: grid;
+  align-items: center;
+  background-color: white;
+}

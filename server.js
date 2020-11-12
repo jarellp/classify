@@ -1,12 +1,8 @@
 // our server!
-console.log("is this working?");
-
 const express = require('express');
 const app = express();
-let port = process.env.PORT;
-if (port == null || port == "") {
-    port = 80;
-}
+const port = 80;
+
 app.listen(port, () => {
     console.log("The server is ready")
 }); 
@@ -36,3 +32,14 @@ db.run(
         }
     }
 );
+function signup(){
+    res.render("page");
+}
+// Set up the handlers for Node.js
+app.use(express.static("/static"));      // static files live in "static" folder
+app.set('views', './views')             // set up views and pug
+app.set('view engine', 'pug')
+app.get('/', function(req, res) {
+    res.render('login');
+});
+app.get("/signup/", signup)

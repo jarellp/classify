@@ -1,32 +1,21 @@
 html
     head
         title Login Screen
-        link (rel ="stylesheet" href = "login.css")
-        script (src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js")
-        script (src="login.js")
+        link(rel="stylesheet",type="text/css", href="/login.css")
+        script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js")
+        script(src="/login.js")
     body
         h1 CJ's College Student Classify!
-        h2 id ="why" Why Classify?
-        p
-            We are an app made for YOU! 
+        h2 Why Classify?
+        p  We are an app made for YOU! This application is designed to help overcome college students depression, aniexty, stress, and other symtoms that can negatively impact your body and success at your university
+        form(action="/action_page.php")
+            label.for.email Email:
             br
-            This application is designed to help overcome 
+            input(type="text" id="email" name="email" value="")
             br
-            college students depression, aniexty, stress, 
+            label.for.pword Password:
             br
-            and other symtoms that can negatively 
+            input(type="text" id="pword" name="pword" value="")
             br
-            impact your body and success at your university
-    
-        form (action="/action_page.php")
-            label.for.email" Email:
-            br
-            input (type="text" id="email" name="email" value="")
-            br
-            label.for.pword" Password:
-            br
-            input (type="text" id="pword" name="pword" value=""
-            br
-            input (type="submit" value="Login")
-
-        button (id='Sign Up' type = "button" Sign Up here)
+            input(type="button", value="Login")#login
+            input(type="button", value="Signup")#signup
