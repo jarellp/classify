@@ -1,0 +1,31 @@
+html
+    head
+        title Login Screen
+        ink (rel ="stylesheet" , href = "/static/css/login.css")
+        script (src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js")
+        script (src="static/js/login.js")
+    body
+        h1 CJ's College Student Classify!
+        h2 id ="why"> Why Classify?
+        p
+            We are an app made for YOU!
+            br
+            This application is designed to help overcome
+            br
+            college students depression, aniexty, stress,
+            br
+            and other symtoms that can negatively
+            br
+            impact your body and success at your university
+
+        form (action="/submission.pug")
+            label.for.email Email:
+            br
+            input (type="email" id="email" name="email" required)
+            br
+            label (for="pword"Password:)
+            br
+            input (type="password" id="pword" name="pword" required)
+            br
+            input (type="submit" value="Login")
+        button (onclick="window.location.href='/registration.pug'"Sign Up!)

@@ -1,0 +1,52 @@
+html
+    head
+        title CJ's Registration
+        link(rel ="stylesheet" href = "registration.css")
+   
+    body
+        h1 CJ's Mental Health Keeper
+        h1 Sign-up today, it's free!
+        div (id="page")
+        br
+        p id = "disclaimer">DISCLAIMER: All information provided is confindental and will not be shared with any third-parties applications.
+            form (action="/submission.html")
+                label.for."fname" First name:
+                input (type="text" id="fname" name="fname" required)
+                br
+                label.for."lname" Last name:
+                input (type="text" id="lname" name="lname" required)
+                br
+                label.for."mi"Middle Initial:
+                input (type="text" id="mi" name="mi")
+                br
+                label.for."dob"Date of Birth:
+                input (type="date" id="date" value="2014-02-09" required)
+                br
+                label.for."gender"Gender:
+                select (name="gender" id="gender" required)
+                option (value="male"Male)
+                option (value="female"Female)
+                option (value="none"Prefer not to disclose)
+                br
+                label.for."email"Email address:
+                input (type="email" id="email" name="email" required)
+                br
+                label.for."number"Phone number
+                input (type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required)
+                br
+                small(Format: 000-000-0000)
+                br
+                label.for."city"City:
+                input (type="city" id="city" name="city" required)
+                br
+                label.for."state">State:
+                input (type="state" id="state" name="state" required)
+                br
+                label.for."zip">Zip/Postal Code:
+                input (type="zip" id="zip" name="zip" required)
+                br
+                input (type="checkbox" id="myCheck" required)
+                label.for."agree"I agree to all terms and conditions
+                br
+                input (type="submit" value="Submit")
+                br
