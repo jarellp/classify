@@ -33,7 +33,7 @@ db.run(
     }
 );
 function signup(){
-    res.render("page");
+    res.render('page');
 }
 // Set up the handlers for Node.js
 app.use(express.static("/static"));      // static files live in "static" folder
