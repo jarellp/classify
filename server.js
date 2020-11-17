@@ -40,6 +40,6 @@ app.set('view engine', 'pug')
 app.get('/', function(req, res) {
     res.render('login');
 });
-app.get('/signup/', function(req, res) {
+app.get('/page/', function(req, res) {
     res.render('page');
 });
