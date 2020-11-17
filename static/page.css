@@ -1,4 +1,4 @@
-#title {
+h1 {
     text-align: center;
 }
 
@@ -6,7 +6,7 @@ body {
     background-color: lightblue;
 }
 
-#notice {
+h3 {
     color: red;
     text-align: center;
     text-decoration: underline;
@@ -20,15 +20,15 @@ div {
     padding: 10px;
 }
 
-#what {
+h6 {
     color: red;
 }
 
-#interested {
+h4 {
     color: darkgreen;
 }
 
-#member {
+h5 {
     color: darkgreen;
 }
 
@@ -53,6 +53,6 @@ div {
     text-align: center;
 }
 
-#explain {
+p {
     font-size: 18px;
 }

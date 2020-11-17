@@ -1,12 +1,14 @@
 h1 {
     color: blue;
 }
-
+div { 
+    height: 100%;
+    margin: 2;
+    font-family: Times New Roman;
+    display: grid;
+    background-color: white;    
+    align-items: center;
+}
 body {
-  height: 100%;
-  margin: 2;
-  font-family: Times New Roman;
-  display: grid;
-  align-items: center;
-  background-color: white;
+ background-color: lightblue;
 }
