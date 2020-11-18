@@ -40,6 +40,7 @@ app.set('view engine', 'pug')
 app.get('/', function(req, res) {
     res.render('login');
 });
+<<<<<<< HEAD
 app.get('/signup/', function(req, res) {
     res.render('registration');
 });
@@ -47,5 +48,8 @@ app.get('/login/', function(req, res) {
     res.render('survey');
 });
 app.get('/submit/', function(req, res) {
+=======
+app.get('/page/', function(req, res) {
+>>>>>>> 93c2ac14e0e2e5247426c132fe55c7cf44709015
     res.render('page');
 });

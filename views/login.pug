@@ -1,10 +1,11 @@
 html
     head
         title Login Screen
-        link(rel="stylesheet",type="text/css", href="/login.css")
-        script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js")
-        script(src="/login.js")
+        link(rel="stylesheet" , href= "classify/static/login.css")
+        script (src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js")
+        script (src="static/login.js")
     body
+<<<<<<< HEAD
     div(class='div-class')#loginpage
         h1 CJ's College Student Classify!
         h2 Why Classify?
@@ -20,3 +21,21 @@ html
             br
             input(type="button", value="Login")#login
             input(type="button", value="Signup")#signup
+=======
+        div
+            h1 CJ's College Student Classify!
+            h2 Why Classify?
+            p  We are an app made for YOU! This application is designed to help overcome college students depression, aniexty, stress, and other symtoms that can negatively impact your body and success at your university
+            form(action="/action_page.php")
+                label.for.email Email:
+                br
+                input(type="text" id="email" name="email" value="")
+                br
+                label.for.pword Password:
+                br
+                input(type="password" id="pword" name="pword" value="")
+                br
+                br
+                input(type="button", value="Login")#login
+                input(type="button", value="Sign up")#signup
+>>>>>>> 93c2ac14e0e2e5247426c132fe55c7cf44709015
