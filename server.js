@@ -41,5 +41,11 @@ app.get('/', function(req, res) {
     res.render('login');
 });
 app.get('/signup/', function(req, res) {
+    res.render('registration');
+});
+app.get('/login/', function(req, res) {
+    res.render('survey');
+});
+app.get('/submit/', function(req, res) {
     res.render('page');
 });

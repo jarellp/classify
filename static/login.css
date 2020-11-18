@@ -1,13 +1,13 @@
 h1 {
     color: blue;
 }
-div { 
+#loginpage { 
     height: 100%;
     margin: 2;
     font-family: Times New Roman;
     display: grid;
     background-color: white;    
-    align-items: center;
+    text-align: center;
 }
 body {
  background-color: lightblue;

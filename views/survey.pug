@@ -1,47 +1,43 @@
 html
     head
         title Survey
-        link (rel ="stylesheet" href = "classify/static/css/survey.css")
-        script (src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js")
-        script (src="survey.js")
+        link(rel ="stylesheet" href = "/survey.css")
+        script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js")
+        script(src="/survey.js")
     body
         h1 Mental Health Survey
         p Please answer all questions honestly! All answers will be confidential, and each answer helps us give you accurate results!
-        label.for.gender"Gender:
-        select (name="gender" id="gender")
-            option (value="female"Female)
-            option (value="male"Male)
-            option (value="NonBinary"NonBinary)
-            option (value="transgenderW"Transgender MTF)
-            option (value="transgenderM"Transgender FTM)
-            option (value="NA"Prefer not to say)
         br
-        p Did you come to university with personal experience of mental health problems? Including: anxiety, depression, bipolar, and eating disorder?
-        input (type="radio" id="yes" name="answerY" value="yes")
-        label.for.yes"Yes
+        div(class='div-class')#q1
+            p Did you come to university with personal experience of mental health problems? Including: anxiety, depression, bipolar, and eating disorder?
+            input(type="radio", name="answerY1", value="yes")#yes
+            label.for.yes Yes
+            br
+            input(type="radio", name="answerN1," value="no")#no
+            label.for.no No
         br
-        input (type="radio" id="no" name="answerN" value="no")
-        label.for.no"No
-        br            
-        p Have you developed a mental health problem since being at university, such as: anxiety, depression, bipolar, and eating disorder?
-        input (type="radio" id="yes2" name="answerY" value="yes")
-        label.for.yes"Yes
+        div(class='div-class')#q2
+            p Have you developed a mental health problem since being at university, such as: anxiety, depression, bipolar, and eating disorder?
+            input(type="radio", name="answerY2", value="yes")#yes2
+            label.for.yes2 Yes
+            br
+            input(type="radio", name="answerN2", value="no")#no2
+            label.for.no2 No
         br
-        input (type="radio" id="no2" name="answerN" value="no")
-        label.for.no"No
-        br          
-        p Have you ever felt unusually stressed out while university? </P>
-        input (type="radio" id="yes3" name="answerY" value="yes")
-        label.for.yes"Yes
-        br
-        input (type="radio" id="no3" name="answerN" value="no")
-        label.for.no"No
-        br            
-        p If you ever did feel stressed at university, would you speak to someone about it?
-        input (type="radio" id="yes4" name="answerY" value="yes")
-        label.for.yes"Yes
-        br
-        input (type="radio" id="no4" name="answerN" value="no")
-        label.for.no"No
+        div(class='div-class')#q3
+            p Have you ever felt unusually stressed out while university?
+            input(type="radio", name="answerY3", value="yes")#yes3
+            label.for.yes3 Yes
+            br
+            input(type="radio", name="answerN3", value="no")#no3
+            label.for.no3 No
+        br  
+        div(class='div-class')#q4
+            p If you ever did feel stressed at university, would you speak to someone about it?
+            input(type="radio", name="answerY4", value="yes")#yes4
+            label.for.yes4 Yes
+            br
+            input(type="radio", name="answerN4", value="no")#no4
+            label.for.no4 No
         br             
-        input (type="submit" value="Submit")
+        input(type="submit" value="Submit")

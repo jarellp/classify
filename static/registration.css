@@ -1,15 +1,14 @@
 h1 {
-    color: lightblue;
+    color: blue;
     text-align: center;
     }
 body {
     background-color: lightblue;
-    background-image: url('static/css/misc/bg.jpg');
     }
-#disclaimer {
+h2 {
     color: red;
     }
-#page {
+div {
     background-color: darkgrey;
     text-align: center;
     margin-left: 280px;
