@@ -55,6 +55,9 @@ app.get('/submit/', function(req, res) {
 app.get('/page/', function(req, res) {
     res.render('survey');
 });
+app.get('/survey/', function(req, res) {
+    res.render('result');
+});
 //app.listen(port, ()=> {
   //  console.log("App running at port=" + port)
 //});
