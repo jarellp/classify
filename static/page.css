@@ -1,7 +1,12 @@
+h1 {
+	font-size: 50;  
+	font-weight: 100;
+}
 #subpage { 
     font-family: Times New Roman;
     text-align: center;
+    color: purple;
 }
 body {
- background-color: lightblue;
+    background-image: url("flowers.jpg");
 }

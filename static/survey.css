@@ -1,7 +1,10 @@
 h1 {
     color: blue;
 }
+h2 {
+    color: red;
+}
 body {
   font-family: Times New Roman;
-  background-color: white;
+    background-image: url("pat.jpg");
 }

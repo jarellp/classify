@@ -1,10 +1,20 @@
 h1 {
+	font-size: 50;     
     color: blue;
     text-align: center;
     }
 body {
-    background-color: lightblue;
+    background-image: url("star.jpg") ;
     }
 h2 {
-    color: yellow;
+    color: darkgreen;
+	font-size: 30;     
+    }
+h3 {
+    color: darkgreen;
+	font-size: 30;     
+    }
+h4 {
+    color: darkgreen;
+	font-size: 30;     
     }

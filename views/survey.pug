@@ -6,7 +6,7 @@ html
         script(src="/survey.js")
     body
         h1 Mental Health Survey
-        p Please answer all questions honestly! All answers will be confidential, and each answer helps us give you accurate results!
+        h2 Please answer all questions honestly! All answers will be confidential, and each answer helps us give you accurate results!
         br
         div(class='div-class')#q1
             p Did you come to university with personal experience of mental health problems? Including: anxiety, depression, bipolar, and eating disorder?
@@ -39,5 +39,12 @@ html
             br
             input(type="radio", name="answerN4", value="no")#no4
             label.for.no4 No
-        br             
+        br
+        div(class='div-class')#q5
+            p Do you work out regularly?
+            input(type="radio", name="answerY5", value="yes")#yes5
+            label.for.yes5 Yes
+            br
+            input(type="radio", name="answerN5", value="no")#no5
+            label.for.no5 No        
         input(type="submit" value="Submit")#submit
