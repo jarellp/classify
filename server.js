@@ -36,6 +36,23 @@ db.run(
     }
 );
 
+// Implmenting API
+/*const settings = {
+	"async": true,
+	"crossDomain": true,
+	"url": "https://onlinecounselling-online-counselling-v1.p.rapidapi.com/docs-depression-treatment",
+	"method": "GET",
+	"headers": {
+		"x-rapidapi-key": "1b3af8a4e5msha894b9964e6aed9p106251jsn889a4ca9b701",
+		"x-rapidapi-host": "onlinecounselling-online-counselling-v1.p.rapidapi.com"
+	}
+};
+
+$.ajax(settings).done(function (response) {
+	console.log(response);
+});
+*/
+
 // Set up the handlers for Node.js
 app.use(express.static("static"));      // static files live in "static" folder
 app.set('views', './views')             // set up views and pug

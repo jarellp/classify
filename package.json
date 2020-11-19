@@ -4,6 +4,7 @@
   "main": "server.js",
   "scripts": {
     "test": "mocha",
+    "cucumber": "cucumber-js ./features -r ./steps",
     "start": "node server.js"
   },
   "repository": {
@@ -24,6 +25,7 @@
     "sqlite3": "^5.0.0"
   },
   "devDependencies": {
+    "cucumber": "^7.0.0-rc.0",
     "request": "^2.88.2"
   },
   "description": ""
