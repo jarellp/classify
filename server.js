@@ -1,7 +1,10 @@
 // our server!
 const express = require('express');
 const app = express();
-const port = 80;
+let port = process.env.PORT;
+if (port == null || port == "") {
+    port = 80;
+}
 
 app.listen(port, () => {
     console.log("The server is ready")
@@ -49,3 +52,9 @@ app.get('/login/', function(req, res) {
 app.get('/submit/', function(req, res) {
     res.render('page');
 });
+app.get('/page/', function(req, res) {
+    res.render('survey');
+});
+//app.listen(port, ()=> {
+  //  console.log("App running at port=" + port)
+//});

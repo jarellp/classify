@@ -1,16 +1,14 @@
 html
     head
         title CJ's College Student Classify!
-        link(rel="stylesheet",type="text/css", href = "/page.css")
-        script (src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js")
-        script (src="/page.js")
- 
+        link(rel='stylesheet', href='/page.css')
+        script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js")
+        script(src="/page.js")
     body
-        h3 Everything is subject to change
+    div(class='div-class')#subpage 
+        h1 YAY! You have created your account!
+        h2 We encourage you to take the survey to get personalized results to help you cope with your mental health! 
         br
-        h1 Welcome to CJ's College Student Classify App
-        div
-        h6 What is Classify
-        p Classify is an application that is designed to help college students to overcome depression, aniexty, stress, and other symtoms that can negatively impact your body and success at your university.
-        h4 Interested in the classify app to improve your mental health?
-        h5 Already a member?
+        p Take survey below!
+        br
+        input(type="button", value="Survey")#submit    

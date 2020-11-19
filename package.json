@@ -1,10 +1,10 @@
 {
   "name": "classify",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -17,8 +17,14 @@
   },
   "homepage": "https://github.com/jarellp/classify#readme",
   "dependencies": {
+    "chai": "^4.2.0",
     "express": "^4.17.1",
+    "mocha": "^8.2.1",
     "pug": "^3.0.0",
     "sqlite3": "^5.0.0"
-  }
+  },
+  "devDependencies": {
+    "request": "^2.88.2"
+  },
+  "description": ""
 }
