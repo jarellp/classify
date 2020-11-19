@@ -1,15 +1,15 @@
 h1 {
-    color: yellow;
+    color: darkgreen;
     text-align: center;
     }
 body {
-    background-image: url("outside.JPG");
+    background-image: url("cloud.jpg");
     }
 h2 {
     color: red;
     }
 #reg {
-    background-color: lightpink;
+    background-color: lightgray;
     text-align: center;
     margin-left: 280px;
     margin-right: 280px;
